@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOKEPON!</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="./js/mokepon.js"></script>
   </head>
   <body>
@@ -28,10 +29,13 @@
     <section id="seleccionar-ataque">
       <h2>Elige tu ataque:</h2>
 
-      <p>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p>
+      <p>
+        Tu mascota <span id="mascota-jugador"></span> tiene
+        <span id="vidas-jugador">3</span> vidas
+      </p>
       <p>
         La mascota <span id="mascota-enemigo"></span> del enemigo tiene
-        <span>3</span> vidas
+        <span id="vidas-enemigo">3</span> vidas
       </p>
 
       <p>
@@ -41,13 +45,7 @@
       </p>
     </section>
 
-    <section id="mensajes">
-      <p>
-        Tu mascota atacó con <span id="ataque-mascota"></span>, miestras que, las
-        mascota del enemigo atacó con <span id="ataque-enemigo"></span> -
-        <span id="resultado"></span>
-      </p>
-    </section>
+    <section id="mensajes"></section>
 
     <section id="reiniciar">
       <button id="boton-reiniciar">Reiniciar</button>
