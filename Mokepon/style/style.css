@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: #7858a6;
+}
+
+#seleccionar-mascota {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  color: #ebc7e8;
+  font-size: 35px;
+}
+
+.subtitulo {
+  color: #ebc7e8;
+  font-size: 15px;
+}
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card-mokepon {
+  width: 180px;
+  height: 100px;
+  color: #bface0;
+  background-color: #5b4b8a;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card-mokepon img {
+  width: 80px;
+}
+
+input {
+  display: none;
+}
