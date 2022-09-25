@@ -19,11 +19,13 @@ body {
 .titulo {
   color: #ebc7e8;
   font-size: 35px;
+  margin: 25px;
 }
 
 .subtitulo {
   color: #ebc7e8;
   font-size: 15px;
+  margin: 15px;
 }
 .cards {
   display: flex;
@@ -44,6 +46,16 @@ body {
 
 .card-mokepon img {
   width: 80px;
+}
+
+#boton-mascota {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid violet;
 }
 
 input {
